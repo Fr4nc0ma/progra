@@ -19,14 +19,60 @@
 	<p> Haz clic para visitar sitios web populares </p>
 	
 	<ul>
-<li><a href="https://www.google.com.pe/?hl=es"> Visitar google </a> </li>
-<li><a href="https://es.wikipedia.org/wiki/Wikipedia:Portada"> Visitar wikipedia </a> </li>
-<li><a href="https://www.google.com.pe/?hl=es"> Ir al formulario </a> </li>
-</ul>
-<p> <b>Aqui hay algunas imagenes de ejemplo </b></p>
-<img src="../machu.jpg">
-<img src="../machu.jpg">
+	<li><a href="https://www.google.com.pe/?hl=es"> Visitar google </a> </li>
+	<li><a href="https://es.wikipedia.org/wiki/Wikipedia:Portada"> Visitar wikipedia </a> </li>
+	<li><a href="#formulario"> Ir al formulario </a> </li>
+	</ul>
+	<p> <b>Aqui hay algunas imagenes de ejemplo </b></p>
+	<img src="../machu.jpg">
+	<img src="../machu.jpg">
 
+
+	<div id="formulario">
+        <div>
+            <h2><i>Campos de Entrada</i></h2>
+            <span>Prueba llenar este formulario:</span><br><br>
+            <span>Nombre:</span> <input type="text"><br><br>
+            <span>Correo electrónico:</span> <input type="email"><br><br>
+            <span>Contraseña:</span> <input type="password"><br><br>
+            <span>Edad:</span> <input type="number"><br><br>
+            <span>Fecha de nacimiento:</span> <input type="date"><br><br>
+        </div>
+        
+        <div>
+            <p>Elige tu fruta favorita:</p>
+            <form>
+                <input type="radio" id="manzana" name="fruta" value="1">
+                <label for="manzana">Manzana</label>
+                <input type="radio" id="banana" name="fruta" value="2">
+                <label for="banana">Banana</label>
+                <input type="radio" id="naranja" name="fruta" value="3">
+                <label for="naranja">Naranja</label>
+            </form>
+        </div>
+
+        <div>
+            <p>Selecciona tus pasatiempos:</p>
+            <form>
+                <input type="checkbox" id="leer" value="1">
+                <label for="leer">Leer</label>
+                <input type="checkbox" id="deportes" value="2">
+                <label for="deportes">Deportes</label>
+                <input type="checkbox" id="musica" value="3">
+                <label for="musica">Música</label><br><br>
+            </form>
+        </div>
+
+        <div>
+            <span>Subir un archivo: </span>
+            <input type="file" name="file" id="file"><br><br>
+        </div>
+
+        <div class="boton">
+            <input type="button" value="Enviar formulario">
+        </div>
+
+    </div>
   
 
 </body>
